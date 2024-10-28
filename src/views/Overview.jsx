@@ -12,7 +12,6 @@ const Overview = () => {
   // USE THIS WHEN NOT TESTING
   const { fileName } = useFileContext();
   console.log(fileName);
-  console.log('test');
 
   {
     /* FOR DEV TEMPLATE USE (using local files instead from db) */
