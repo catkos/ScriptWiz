@@ -88,7 +88,7 @@ function FrontPage() {
         });
       }
     } else {
-      console.warn("No script content available to generate AI response.");
+      console.warn("No script content available to generate AI response");
     }
   };
 
