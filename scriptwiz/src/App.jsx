@@ -9,7 +9,7 @@ import SchedulePage from "./views/SchedulePage";
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <NavBar />
       <Routes>
         <Route path="/" element={<FrontPage />} />
