@@ -9,7 +9,7 @@ import SchedulePage from "./views/SchedulePage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/scriptwiz/"}>
       <NavBar />
       <Routes>
         <Route path="/" element={<FrontPage />} />
